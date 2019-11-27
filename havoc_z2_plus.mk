@@ -23,7 +23,7 @@ $(call inherit-product, device/zuk/z2_plus/device.mk)
 # Inherit some common Havoc stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, vendor/havoc/config/common.mk)
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := havoc_z2_plus
