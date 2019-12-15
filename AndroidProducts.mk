@@ -15,3 +15,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/havoc_z2_plus.mk
+
+COMMON_LUNCH_CHOICES := \
+    havoc_z2_plus-userdebug \
+    havoc_z2_plus-eng
