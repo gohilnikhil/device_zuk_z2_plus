@@ -97,4 +97,7 @@
 
     <!-- Default value for led color when battery is fully charged -->
     <integer name="config_notificationsBatteryFullARGB">0xFFFFFFFF</integer>
+
+    <!-- Whether to show vendor mismatch message. -->
+    <bool name="config_show_vendor_mismatch_message">false</bool>
 </resources>
