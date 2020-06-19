@@ -100,4 +100,7 @@
 
     <!-- Whether to show vendor mismatch message. -->
     <bool name="config_show_vendor_mismatch_message">false</bool>
+
+    <!-- We dont not have a multicolored LED -->
+    <bool name="config_multiColorBatteryLed">false</bool>
 </resources>
